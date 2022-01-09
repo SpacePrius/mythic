@@ -143,6 +143,7 @@ Hooks.once("init", function() {
   console.log("mythic | Initializing Mythic 4.0 System");
 
   CONFIG.mythic = mythic;
+  CONFIG.debug.hooks = true;
   CONFIG.Actor.documentClass = MythicActor;
   CONFIG.Combat.documentClass = MythicCombat;
   CONFIG.Item.documentClass = MythicItem;
